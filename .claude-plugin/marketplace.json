@@ -1,0 +1,41 @@
+{
+  "name": "lawvable-agent-skills",
+  "owner": {
+    "name": "Antoine Louis",
+    "email": "antoiloui@gmail.com"
+  },
+  "metadata": {
+    "description": "Agent Skills for Law",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "document-skills",
+      "description": "Document processing skills for Word, Excel, PowerPoint, and PDF",
+      "author": "Anthropic",
+      "source": "./",
+      "skills": [
+        "./skills/docx",
+        "./skills/pdf",
+        "./skills/pptx",
+        "./skills/xlsx"
+      ]
+    },
+    {
+      "name": "privacy-skills",
+      "description": "GDPR compliance skills for privacy policies and cookie policies",
+      "author": "Malik Taiar",
+      "source": "./",
+      "skills": [
+        "./skills/politique-confidentialite",
+        "./skills/politique-cookies"
+      ]
+    },
+    {
+      "name": "skill-creator",
+      "description": "Guide for creating effective Agent Skills with specialized knowledge and workflows",
+      "author": "Anthropic",
+      "source": "./skills/skill-creator"
+    }
+  ]
+}
