@@ -185,7 +185,6 @@ Le consentement doit être renouvelé au-delà de la durée choisie.
 | **Axeptio** | UX soignée, français | Payant |
 | **Didomi** | Complet, conforme | Payant, complexe |
 | **Cookiebot** | Scan automatique | Peut être lent |
-| **Tarteaucitron** | Open source, gratuit | Configuration manuelle |
 | **OneTrust** | Entreprise, complet | Coûteux |
 
 ---

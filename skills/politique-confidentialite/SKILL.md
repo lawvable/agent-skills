@@ -1,29 +1,12 @@
 ---
 name: politique-confidentialite
-description: Guide complet pour la rédaction de politiques de confidentialité conformes au RGPD. Contient les recommandations CNIL, une template et les bonnes pratiques. À utiliser lors de la rédaction ou révision d'une politique de confidentialité pour un site web ou une application.
+description: Guide complet pour la rédaction de politiques de confidentialité conformes au RGPD. Contient les recommandations CNIL 2020, un template de référence et les bonnes pratiques. À utiliser lors de la rédaction ou révision d'une politique de confidentialité pour un site web ou une application.
 ---
 
 # Guide des Politiques de Confidentialité - RGPD
 
 > Version 1.0 - Décembre 2025
-> Conformité : RGPD (Règlement UE 2016/679) + Recommandations CNIL
-
----
-
-## RÈGLE IMPÉRATIVE : PARTIR D'UN TEMPLATE DE RÉFÉRENCE
-
-> **NE JAMAIS RÉDIGER UNE POLITIQUE DE ZÉRO.**
->
-> **Template par défaut** : `assets/template_politique_confidentialite_b2c.docx`. Ce template a été validé juridiquement. C'est LA référence de base. Tu dois :
-> - **Reproduire fidèlement la structure et la rédaction du template**
-> - **Garder les formulations exactes du template** (elles sont validées)
-> - **Uniquement remplacer les placeholders** par les informations du client
-> - **Ne PAS réécrire les phrases** même si tu penses pouvoir mieux formuler
-> - **Ne PAS ajouter de sections** qui ne sont pas dans le template
->
-> Les informations collectées (CGS, site, etc.) servent à **remplir** le template, pas à le **réécrire**.
->
-> L'avocat peut fournir un autre modèle interne s'il le souhaite, mais dans tous les cas : **coller au template fourni**.
+> Conformité : RGPD (Règlement UE 2016/679) + Lignes directrices CNIL 2020
 
 ---
 
@@ -42,14 +25,23 @@ La politique de confidentialité est le document principal d'information des per
 
 ---
 
-## Template et ressources de référence
+## Ressources de référence
 
 ### Templates
 
 | Template | Description |
 |----------|-------------|
-| `assets/template_politique_confidentialite_b2c.docx` | Template principal, à utiliser par défaut |
+| `assets/sample_template_politique_confidentialite.docx` | Template par défaut à utiliser si aucun modèle privé n'est fourni |
 | Template interne fourni par l'avocat | À utiliser si l'avocat dispose d'un modèle privé plus adapté |
+
+> **IMPORTANT** : Le template par défaut `sample_template_politique_confidentialite` est conçu pour un **site vitrine sans utilisateurs**. Si la demande concerne une **application ou plateforme avec des utilisateurs**, il faudra ajouter des catégories supplémentaires de données collectées, telles que :
+> - Gestion de comptes utilisateurs (création, authentification, profil)
+> - Données de connexion et historique d'activité
+> - Données générées par l'utilisation de l'application
+> - Communications entre utilisateurs (messages, commentaires, etc.)
+> - Préférences et paramètres utilisateur
+>
+> Adaptez le template en fonction du type de plateforme (site vitrine, e-commerce, SaaS, application mobile, marketplace, etc.).
 
 ### Documentation CNIL
 
@@ -209,27 +201,37 @@ Pour chaque catégorie, préciser si applicable :
 
 ## Workflow de rédaction
 
-### Étape 0 : Sélection du template (OBLIGATOIRE)
+### Étape 1 : Sélection du template (OBLIGATOIRE)
 
-**Template par défaut** : `assets/template_politique_confidentialite_b2c.docx`
+> **NE JAMAIS RÉDIGER UNE POLITIQUE DE ZÉRO.**
+> Il est indispensable de toujours partir d'un template donné pour la rédaction, soit :
+> - le template par défaut dans `assets/sample_template_politique_confidentialite.docx` ;
+> - un autre modèle interne fourni par l'utilisateur.
+>
+> Ce template est ta référence de base. Tu dois :
+> - **Reproduire fidèlement la structure et la rédaction du template**
+> - **Garder les formulations exactes du template** (elles sont validées)
+> - **Uniquement remplacer les placeholders** par les informations du client
+> - **Ne PAS réécrire les phrases** même si tu penses pouvoir mieux formuler
+> - **Ne PAS ajouter de sections** qui ne sont pas dans le template
+>
+> Les informations collectées (CGS, site, etc.) servent à **remplir** le template, **pas à le réécrire**.
 
-> **PREMIÈRE ACTION** : Confirmer le template à utiliser AVANT toute rédaction. La rédaction ne part jamais de zéro.
-
-**1. Demander à l'utilisateur :**
+**1. PREMIÈRE ACTION : Confirmer le template à utiliser AVANT toute rédaction. Demander à l'utilisateur :**
 ```
 "Je vais rédiger la politique de confidentialité en partant du template fourni par défaut. Disposez-vous d'un template interne plus adapté sur lequel vous souhaiteriez partir ?"
 ```
 
 | Option | Action |
 |--------|--------|
-| Template par défaut | Utiliser `assets/template_politique_confidentialite_b2c.docx` |
+| Template par défaut | Utiliser `assets/sample_template_politique_confidentialite.docx` |
 | Template interne | Utiliser le document fourni par l'avocat |
 
 **2. Considérez le choix de l'utilisateur et sélectionnez le template de départ.**
 
 ---
 
-### Étape 1 : Comprendre l'activité du client
+### Étape 2 : Comprendre l'activité du client
 
 > **OBJECTIF PRINCIPAL** : Comprendre vraiment ce que le client fait, son activité, le parcours utilisateur sur sa plateforme.
 
@@ -286,7 +288,7 @@ SPÉCIFICITÉS : [Ce qui rend ce cas particulier]
 
 ---
 
-### Étape 2 : Rédaction du Draft 1
+### Étape 3 : Rédaction du Draft 1
 
 > **RÈGLE ABSOLUE** : Le template est votre base validée.
 >
@@ -330,7 +332,7 @@ Compléter le template section par section avec les informations collectées :
 
 ---
 
-### Étape 3 : Livraison Draft 1 + benchmark + propositions d'amélioration
+### Étape 4 : Livraison Draft 1 + benchmark + propositions d'amélioration
 
 **1. Livrer le Draft 1 avec explication :**
 ```
@@ -367,7 +369,7 @@ Souhaitez-vous intégrer ces éléments au Draft fourni ?
 
 ---
 
-### Étape 4 : Vérification finale
+### Étape 5 : Vérification finale
 
 Dernière relecture avant livraison définitive :
 
@@ -510,11 +512,11 @@ SOMMAIRE (si document long)
 
 ## Utilisation de ce guide
 
-1. **Étape 0 - Choisir le template** : Par défaut, ou template interne de l'avocat
-2. **Étape 1 - Comprendre l'activité** : Collecter les docs de l'avocat + recherches sur le site
-3. **Étape 2 - Rédiger le Draft 1** : Compléter le template + vérification conformité
-4. **Étape 3 - Livrer + Benchmark** : Présenter le Draft 1 + benchmark systématique + propositions d'amélioration
-5. **Étape 4 - Finaliser** : Intégrer les améliorations validées + vérification finale
+1. **Étape 1 - Choisir le template** : Par défaut, ou template interne de l'avocat
+2. **Étape 2 - Comprendre l'activité** : Collecter les docs de l'avocat + recherches sur le site
+3. **Étape 3 - Rédiger le Draft 1** : Compléter le template + vérification conformité
+4. **Étape 4 - Livrer + Benchmark** : Présenter le Draft 1 + benchmark systématique + propositions d'amélioration
+5. **Étape 5 - Finaliser** : Intégrer les améliorations validées + vérification finale
 
 > **RAPPEL TEMPLATE** : Ne jamais rédiger depuis zéro. Toujours partir du template et l'adapter.
 >

@@ -10,40 +10,6 @@ description: Guide complet pour la rédaction de politiques cookies conformes au
 
 ---
 
-## RÈGLES IMPÉRATIVES
-
-### 1. LIRE LES SOURCES CNIL (PDFs + URLs)
-
-> **OBLIGATION** : Pour TOUTE information concernant les cookies, le consentement, les durées de conservation, les exemptions ou les bonnes pratiques :
-> 1. **LIRE les fichiers PDF** avec le tool Read AVANT de répondre sur un point réglementaire
-> 2. **CONSULTER les URLs en ligne** avec WebFetch pour vérifier les informations les plus récentes
-> 3. **CITER l'URL CNIL** dans ta réponse quand tu mentionnes une règle ou une durée
-> 4. **NE JAMAIS inventer** une durée ou une règle sans l'avoir vérifiée dans les sources
-
-| Sujet | Fichier PDF à LIRE (tool Read) | URL à CONSULTER (tool WebFetch) |
-|-------|--------------------------------|----------------------------------|
-| **Lignes directrices cookies** | `assets/CNIL_lignes_directrices_cookies_et_traceurs.pdf` |  |
-| **Recommandation cookies** | `assets/CNIL_recommandation_cookies_et_traceurs.pdf` | https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies |
-| **FAQ cookies** | `assets/CNIL_faq_cookies_et_traceurs.pdf` | https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies/FAQ |
-| **Évolution des règles** | `assets/CNIL_evolution_regles_utilisation_cookies.pdf` | https://www.cnil.fr/fr/evolution-des-regles-dutilisation-des-cookies-quels-changements-pour-les-internautes |
-
-### 2. PARTIR D'UN TEMPLATE DE RÉFÉRENCE
-
-> **NE JAMAIS RÉDIGER UNE POLITIQUE COOKIES DE ZÉRO.**
->
-> **Template par défaut :** `assets/template_politique_cookies.md`. Ce template a été validé juridiquement. C'est LA référence de base. Tu dois :
-> - **Reproduire fidèlement la structure et la rédaction du template**
-> - **Garder les formulations exactes du template** (elles sont validées)
-> - **Uniquement remplacer les placeholders** par les informations du client
-> - **Ne PAS réécrire les phrases** même si tu penses pouvoir mieux formuler
-> - **Ne PAS ajouter de sections** qui ne sont pas dans le template
->
-> Les informations collectées (cookies utilisés, CMP, etc.) servent à **remplir** le template, pas à le **réécrire**.
->
-> L'avocat peut fournir un autre modèle interne s'il le souhaite, mais dans tous les cas : **coller au template fourni**.
-
----
-
 ## Vue d'ensemble
 
 La politique cookies informe les utilisateurs sur les cookies et traceurs déposés sur leur appareil. Elle est distincte de la politique de confidentialité mais peut y être intégrée. Elle doit respecter les lignes directrices CNIL de 2020.
@@ -59,22 +25,32 @@ La politique cookies informe les utilisateurs sur les cookies et traceurs dépos
 
 ---
 
-## Template et ressources de référence
+## Ressources de référence
 
 ### Template
 
 | Template | Description |
 |----------|-------------|
-| `assets/template_politique_cookies.md` | Template principal, à utiliser par défaut |
+| `assets/sample_template_politique_cookies.docx` | Template par défaut à utiliser si aucun modèle privé n'est fourni |
 | Template interne fourni par l'avocat | À utiliser si l'avocat dispose d'un modèle privé plus adapté |
 
 ### Documentation CNIL
 
-| Document | Contenu |
-|----------|---------|
-| **[CNIL_transparence.pdf](assets/CNIL_transparence.pdf)** | Guide sur l'information et la transparence |
-| **[CNIL_principes_rgpd.pdf](assets/CNIL_principes_rgpd.pdf)** | Les principes fondamentaux du RGPD |
-| **[RGPD_texte_officiel.pdf](assets/RGPD_texte_officiel.pdf)** | Texte intégral du Règlement UE 2016/679 |
+| Fichier PDF à LIRE (tool Read) | URL à CONSULTER (tool WebFetch) | Sujet |
+|--------------------------------|---------------------------------|-------|
+| `assets/CNIL_lignes_directrices_cookies_et_traceurs.pdf` | - | Lignes directrices cookies |
+| `assets/CNIL_recommandation_cookies_et_traceurs.pdf` | https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies | Recommandation cookies |
+| `assets/CNIL_faq_cookies_et_traceurs.pdf` | https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies/FAQ | FAQ cookies |
+| `assets/CNIL_evolution_regles_utilisation_cookies.pdf` | https://www.cnil.fr/fr/evolution-des-regles-dutilisation-des-cookies-quels-changements-pour-les-internautes | Évolution des règles |
+| `assets/CNIL_transparence.pdf` | - | Guide sur l'information et la transparence |
+| `assets/CNIL_principes_rgpd.pdf` | - | Les principes fondamentaux du RGPD |
+| `assets/RGPD_texte_officiel.pdf` | - | Texte intégral du Règlement UE 2016/679 |
+
+> **OBLIGATION** : Pour TOUTE information concernant les cookies, le consentement, les durées de conservation, les exemptions ou les bonnes pratiques :
+> 1. **LIRE les fichiers PDF** avec le tool Read AVANT de répondre sur un point réglementaire
+> 2. **CONSULTER les URLs en ligne** avec WebFetch pour vérifier les informations les plus récentes
+> 3. **CITER l'URL CNIL** dans ta réponse quand tu mentionnes une règle ou une durée
+> 4. **NE JAMAIS inventer** une durée ou une règle sans l'avoir vérifiée dans les sources
 
 ### Fiches de connaissance
 
@@ -141,7 +117,6 @@ COOKIES DE FONCTIONNALITÉ
 - [ ] Axeptio
 - [ ] Didomi
 - [ ] Cookiebot
-- [ ] Tarteaucitron
 - [ ] OneTrust
 - [ ] Autre : ___________
 
@@ -160,27 +135,37 @@ COOKIES DE FONCTIONNALITÉ
 
 ## Workflow de rédaction
 
-### Étape 0 : Sélection du template (OBLIGATOIRE)
+### Étape 1 : Sélection du template (OBLIGATOIRE)
 
-**Template par défaut** : `assets/template_politique_cookies.md`
+> **NE JAMAIS RÉDIGER UNE POLITIQUE DE ZÉRO.**
+> Il est indispensable de toujours partir d'un template donné pour la rédaction, soit :
+> - le template par défaut dans `assets/sample_template_politique_cookies.docx` ;
+> - un autre modèle interne fourni par l'utilisateur.
+>
+> Ce template est ta référence de base. Tu dois :
+> - **Reproduire fidèlement la structure et la rédaction du template**
+> - **Garder les formulations exactes du template** (elles sont validées)
+> - **Uniquement remplacer les placeholders** par les informations du client
+> - **Ne PAS réécrire les phrases** même si tu penses pouvoir mieux formuler
+> - **Ne PAS ajouter de sections** qui ne sont pas dans le template
+>
+> Les informations collectées (cookies utilisés, CMP, etc.) servent à **remplir** le template, **pas à le réécrire**.
 
-> **PREMIÈRE ACTION** : Confirmer le template à utiliser AVANT toute rédaction. La rédaction ne part jamais de zéro.
-
-**1. Demander à l'utilisateur :**
+**1. PREMIÈRE ACTION : Confirmer le template à utiliser AVANT toute rédaction. Demander à l'utilisateur :**
 ```
-"Je vais rédiger la politique cookies en partant du template fourni par défaut. Disposez-vous d'un template interne plus adapté sur lequel vous souhaiteriez partir ?"
+"Je vais rédiger la politique de confidentialité en partant du template fourni par défaut. Disposez-vous d'un template interne plus adapté sur lequel vous souhaiteriez partir ?"
 ```
 
 | Option | Action |
 |--------|--------|
-| Template de référence (défaut) | Utiliser `assets/template_politique_cookies.md` |
+| Template par défaut | Utiliser `assets/sample_template_politique_cookies.docx` |
 | Template interne | Utiliser le document fourni par l'avocat |
 
 **2. Considérez le choix de l'utilisateur et sélectionnez le template de départ.**
 
 ---
 
-### Étape 1 : Comprendre le site et les cookies utilisés
+### Étape 2 : Comprendre le site et les cookies utilisés
 
 > **OBJECTIF PRINCIPAL** : Identifier précisément tous les cookies déposés par le site.
 
@@ -222,7 +207,7 @@ POINTS CLÉS AVOCAT : [Ce qui doit absolument figurer]
 
 ---
 
-### Étape 2 : Rédaction du Draft 1
+### Étape 3 : Rédaction du Draft 1
 
 > **RÈGLE ABSOLUE** : Le template de référence est ta base validée.
 >
@@ -260,7 +245,7 @@ Compléter le template section par section :
 
 ---
 
-### Étape 3 : Livraison Draft 1 + Benchmark + Propositions d'amélioration
+### Étape 4 : Livraison Draft 1 + Benchmark + Propositions d'amélioration
 
 **1. Livrer le Draft 1 avec explication :**
 ```
@@ -296,7 +281,7 @@ Souhaitez-vous intégrer ces éléments au Draft fourni ?"
 
 ---
 
-### Étape 4 : Vérification finale
+### Étape 5 : Vérification finale
 
 Dernière relecture avant livraison définitive :
 
@@ -338,11 +323,11 @@ Dernière relecture avant livraison définitive :
 
 ## Utilisation de ce guide
 
-1. **Étape 0 - Choisir le template** : Template de référence par défaut, ou template interne de l'avocat
-2. **Étape 1 - Identifier les cookies** : Collecter les infos avocat + analyse du site
-3. **Étape 2 - Rédiger le Draft 1** : Compléter le template + vérification conformité
-4. **Étape 3 - Livrer + Benchmark** : Présenter le Draft 1 + benchmark systématique + propositions d'amélioration
-5. **Étape 4 - Finaliser** : Intégrer les améliorations validées + vérification finale
+1. **Étape 1 - Choisir le template** : Template de référence par défaut, ou template interne de l'avocat
+2. **Étape 2 - Identifier les cookies** : Collecter les infos avocat + analyse du site
+3. **Étape 3 - Rédiger le Draft 1** : Compléter le template + vérification conformité
+4. **Étape 4 - Livrer + Benchmark** : Présenter le Draft 1 + benchmark systématique + propositions d'amélioration
+5. **Étape 5 - Finaliser** : Intégrer les améliorations validées + vérification finale
 
 > **RAPPEL TEMPLATE** : Ne jamais rédiger depuis zéro. Toujours partir du template de référence et l'adapter.
 > **RAPPEL DURÉE** : La CNIL recommande **6 mois** pour le cookie de consentement (13 mois max). Toujours vérifier dans les sources CNIL avant de mentionner une durée.
