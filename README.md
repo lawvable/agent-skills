@@ -75,33 +75,41 @@ This design allows multiple skills to remain available without consuming your ag
 
 ## Available Skills
 
-### Privacy & Data Protection
+### Commercial Law
 
-Skills for GDPR compliance and data protection work:
+Skills for contract and commercial law work.
 
-| Skill | Description |
-|-------|-------------|
-| **[politique-confidentialite](./skills/politique-confidentialite)** | Draft GDPR-compliant privacy policies following CNIL recommendations |
-| **[politique-cookies](./skills/politique-cookies)** | Create cookie policies compliant with GDPR and ePrivacy directive |
+| Skill | Description | Author |
+|-------|-------------|--------|
+| **[nda-review](./skills/nda-review)** | Review incoming unilateral commercial NDAs | [Jamie Tso](https://github.com/jamietso/nda-review-skill) |
+
+### Privacy Law
+
+Skills for GDPR compliance and data protection work.
+
+| Skill | Description | Author |
+|-------|-------------|--------|
+| **[politique-confidentialite](./skills/politique-confidentialite)** | Draft GDPR-compliant privacy policies following CNIL recommendations | [Malik Taiar](https://www.linkedin.com/in/malik-taiar/) |
+| **[politique-cookies](./skills/politique-cookies)** | Create cookie policies compliant with GDPR and ePrivacy directive | [Malik Taiar](https://www.linkedin.com/in/malik-taiar/) |
 
 ### Document Processing
 
-Core skills for working with professional document formats. *Based on [Anthropic's official skills](https://github.com/anthropics/skills).*
+Core skills for working with professional document formats.
 
-| Skill | Description |
-|-------|-------------|
-| **[docx](./skills/docx)** | Create, edit, and analyze Word documents with tracked changes, comments, and formatting preservation |
-| **[pdf](./skills/pdf)** | Extract text and tables, create new PDFs, merge/split documents, and handle form fields |
-| **[pptx](./skills/pptx)** | Build and modify presentations with layouts, templates, charts, and speaker notes |
-| **[xlsx](./skills/xlsx)** | Work with spreadsheets including formulas, formatting, data analysis, and visualization |
+| Skill | Description | Author |
+|-------|-------------|--------|
+| **[docx](./skills/docx)** | Create, edit, and analyze Word documents with tracked changes, comments, and formatting preservation | [Anthropic](https://github.com/anthropics/skills) |
+| **[pdf](./skills/pdf)** | Extract text and tables, create new PDFs, merge/split documents, and handle form fields | [Anthropic](https://github.com/anthropics/skills) |
+| **[pptx](./skills/pptx)** | Build and modify presentations with layouts, templates, charts, and speaker notes | [Anthropic](https://github.com/anthropics/skills) |
+| **[xlsx](./skills/xlsx)** | Work with spreadsheets including formulas, formatting, data analysis, and visualization | [Anthropic](https://github.com/anthropics/skills) |
 
-### Productivity
+### Utility
 
-Tools for building and extending skills. *Based on [Anthropic's official skills](https://github.com/anthropics/skills).*
+Tools for building and extending skills.
 
-| Skill | Description |
-|-------|-------------|
-| **[skill-creator](./skills/skill-creator)** | Interactive guide for creating new skills with structured Q&A |
+| Skill | Description | Author |
+|-------|-------------|--------|
+| **[skill-creator](./skills/skill-creator)** | Interactive guide for creating new skills with structured Q&A | [Anthropic](https://github.com/anthropics/skills) |
 
 ## Getting Started
 
