@@ -1,4 +1,4 @@
-<h1 align="center">Lawvable Skills</h1>
+<h1 align="center">Awesome Legal Skills</h1>
 
 <p align="center">
   <strong>AI Agent Skills for Legal Professionals</strong>
@@ -6,9 +6,9 @@
 
 <p align="center">
   <a href="https://lawvable.com/skills">
-    <img src="https://img.shields.io/badge/Skills-7%20Available-4F46E5?style=flat-square" alt="Skills Available" />
+    <img src="https://img.shields.io/badge/Skills-9%20Available-4F46E5?style=flat-square" alt="Skills Available" />
   </a>
-  <a href="https://github.com/lawvable/agent-skills/blob/main/LICENSE">
+  <a href="https://github.com/lawvable/awesome-legal-skills/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square" alt="License" />
   </a>
   <a href="https://makeapullrequest.com">
@@ -77,39 +77,39 @@ This design allows multiple skills to remain available without consuming your ag
 
 ### Commercial Law
 
-Skills for contract and commercial law work.
+| Skill | Author | Description |
+|-------|--------|-------------|
+| **[nda-review-en](./skills/nda-review-en-jamie-tso)** | [Jamie Tso](https://github.com/jamietso/nda-review-skill) | Review incoming unilateral commercial NDAs |
 
-| Skill | Description | Author |
-|-------|-------------|--------|
-| **[nda-review](./skills/nda-review)** | Review incoming unilateral commercial NDAs | [Jamie Tso](https://github.com/jamietso/nda-review-skill) |
+### Corporate Law
+
+| Skill | Author | Description |
+|-------|--------|-------------|
+| **[whistleblower-policy-fr](./skills/whistleblower-policy-fr-malik-taiar)** | [Malik Taiar](https://www.linkedin.com/in/malik-taiar/) | Assess or draft compliant whistleblower policies under EU Directive and Sapin II law | 
 
 ### Privacy Law
 
-Skills for GDPR compliance and data protection work.
-
-| Skill | Description | Author |
-|-------|-------------|--------|
-| **[politique-confidentialite](./skills/politique-confidentialite)** | Draft GDPR-compliant privacy policies following CNIL recommendations | [Malik Taiar](https://www.linkedin.com/in/malik-taiar/) |
-| **[politique-cookies](./skills/politique-cookies)** | Create cookie policies compliant with GDPR and ePrivacy directive | [Malik Taiar](https://www.linkedin.com/in/malik-taiar/) |
+| Skill | Author | Description |
+|-------|--------|-------------|
+| **[privacy-policy-fr](./skills/privacy-policy-fr-malik-taiar)** | [Malik Taiar](https://www.linkedin.com/in/malik-taiar/) | Draft GDPR-compliant privacy policies following CNIL recommendations |
+| **[cookie-policy-fr](./skills/cookie-policy-fr-malik-taiar)** | [Malik Taiar](https://www.linkedin.com/in/malik-taiar/) | Create cookie policies compliant with GDPR and ePrivacy directive |
 
 ### Document Processing
 
-Core skills for working with professional document formats.
-
-| Skill | Description | Author |
-|-------|-------------|--------|
-| **[docx](./skills/docx)** | Create, edit, and analyze Word documents with tracked changes, comments, and formatting preservation | [Anthropic](https://github.com/anthropics/skills) |
-| **[pdf](./skills/pdf)** | Extract text and tables, create new PDFs, merge/split documents, and handle form fields | [Anthropic](https://github.com/anthropics/skills) |
-| **[pptx](./skills/pptx)** | Build and modify presentations with layouts, templates, charts, and speaker notes | [Anthropic](https://github.com/anthropics/skills) |
-| **[xlsx](./skills/xlsx)** | Work with spreadsheets including formulas, formatting, data analysis, and visualization | [Anthropic](https://github.com/anthropics/skills) |
+| Skill | Author | Description |
+|-------|--------|-------------|
+| **[docx](./skills/docx-processing-en-anthropic)** |  [Anthropic](https://github.com/anthropics/skills) | Create, edit, and analyze Word documents with tracked changes, comments, and formatting preservation |
+| **[pdf](./skills/pdf-processing-en-anthropic)** | [Anthropic](https://github.com/anthropics/skills) | Extract text and tables, create new PDFs, merge/split documents, and handle form fields |
+| **[xlsx](./skills/xlsx-processing-en-anthropic)** | [Anthropic](https://github.com/anthropics/skills) | Work with spreadsheets including formulas, formatting, data analysis, and visualization |
+| **[pptx](./skills/pptx-processing-en-anthropic)** | [Anthropic](https://github.com/anthropics/skills) | Build and modify presentations with layouts, templates, charts, and speaker notes |
 
 ### Utility
 
 Tools for building and extending skills.
 
-| Skill | Description | Author |
-|-------|-------------|--------|
-| **[skill-creator](./skills/skill-creator)** | Interactive guide for creating new skills with structured Q&A | [Anthropic](https://github.com/anthropics/skills) |
+| Skill | Author | Description |
+|-------|--------|-------------|
+| **[skill-creator](./skills/skill-creator-en-anthropic)** | [Anthropic](https://github.com/anthropics/skills) | Interactive guide for creating new skills with structured Q&A |
 
 ## Getting Started
 

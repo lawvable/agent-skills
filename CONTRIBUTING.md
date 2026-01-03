@@ -67,4 +67,4 @@ Need inspiration? Areas where skills would be valuable:
 
 ## Questions?
 
-Open an [issue](https://github.com/lawvable/agent-skills/issues) for help. Be respectful and credit original sources.
+Open an [issue](https://github.com/lawvable/awesome-legal-skills/issues) for help. Be respectful and credit original sources.
