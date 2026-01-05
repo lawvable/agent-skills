@@ -1,66 +1,103 @@
 {
-  "name": "awesome-legal-skills",
+  "name": "lawvable",
+  "version": "1.0.0",
+  "description": "Bundled agent skills for legal work",
   "owner": {
     "name": "Antoine Louis",
     "email": "antoiloui@gmail.com"
-  },
-  "metadata": {
-    "description": "Agent Skills for Law",
-    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "nda-review-en-jamie-tso",
       "description": "Guide for reviewing incoming commercial NDAs, producing a clause-by-clause issue log with redlines and rationales",
-      "author": "Jamie Tso",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jamie Tso"
+      },
+      "license": "Apache-2.0",
       "source": "./skills/nda-review-en-jamie-tso"
     },
     {
       "name": "whistleblower-policy-fr-malik-taiar",
       "description": "Guide for assessing or drafting compliant whistleblower policies under EU Directive and Sapin II law",
-      "author": "Malik Taiar",
+      "version": "1.0.0",
+      "author": {
+        "name": "Malik Taiar",
+        "email": "maliktaiar@outlook.fr"
+      },
+      "license": "Apache-2.0",
       "source": "./skills/whistleblower-policy-fr-malik-taiar"
     },
     {
       "name": "privacy-policy-fr-malik-taiar",
       "description": "Guide for drafting GDPR-compliant privacy policies with CNIL recommendations and templates",
-      "author": "Malik Taiar",
+      "version": "1.0.0",
+      "author": {
+        "name": "Malik Taiar",
+        "email": "maliktaiar@outlook.fr"
+      },
+      "license": "Apache-2.0",
       "source": "./skills/privacy-policy-fr-malik-taiar"
     },
     {
       "name": "cookie-policy-fr-malik-taiar",
       "description": "Guide for drafting cookie policies compliant with GDPR and ePrivacy directive",
-      "author": "Malik Taiar",
+      "version": "1.0.0",
+      "author": {
+        "name": "Malik Taiar",
+        "email": "maliktaiar@outlook.fr"
+      },
+      "license": "Apache-2.0",
       "source": "./skills/cookie-policy-fr-malik-taiar"
     },
     {
       "name": "docx-processing-en-anthropic",
       "description": "Document creation, editing, and analysis with tracked changes and comments support",
-      "author": "Anthropic",
+      "version": "1.0.0",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
       "source": "./skills/docx-processing-en-anthropic"
     },
     {
       "name": "pdf-processing-en-anthropic",
       "description": "PDF manipulation toolkit for text extraction, creation, merging, and form handling",
-      "author": "Anthropic",
+      "version": "1.0.0",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
       "source": "./skills/pdf-processing-en-anthropic"
     },
     {
       "name": "xlsx-processing-en-anthropic",
       "description": "Spreadsheet creation, editing, and analysis with formulas and data visualization",
-      "author": "Anthropic",
+      "version": "1.0.0",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
       "source": "./skills/xlsx-processing-en-anthropic"
     },
     {
       "name": "pptx-processing-en-anthropic",
       "description": "Presentation creation, editing, and analysis with layouts and speaker notes",
-      "author": "Anthropic",
+      "version": "1.0.0",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
       "source": "./skills/pptx-processing-en-anthropic"
     },
     {
       "name": "skill-creator-en-anthropic",
       "description": "Guide for creating effective Agent Skills with specialized knowledge and workflows",
-      "author": "Anthropic",
+      "version": "1.0.0",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
       "source": "./skills/skill-creator-en-anthropic"
     }
   ]
